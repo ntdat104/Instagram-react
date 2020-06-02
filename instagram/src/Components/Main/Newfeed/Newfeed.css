@@ -1,0 +1,125 @@
+.newfeed {
+  width: 614px;
+}
+
+.article {
+  background-color: rgba(var(--d87, 255, 255, 255), 1);
+  margin-bottom: 60px;
+  border-radius: 3px;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+.article__head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 60px;
+  padding: 15px;
+}
+.article__head a img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+.article__head a {
+  text-decoration: none;
+  color: rgba(var(--f75, 38, 38, 38), 1);
+  font-weight: 600;
+}
+.article__head a:nth-child(2) {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+.article__body {
+  width: 100%;
+  height: 614px;
+}
+.article__body img {
+  width: 100%;
+  height: 100%;
+}
+.article__foot {
+  width: 100%;
+}
+.article__foot-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 40px;
+  margin-top: 4px;
+  padding: 0px 16px;
+}
+.article__foot-icon a {
+  padding-right: 16px;
+}
+.article__foot-icon a:last-child {
+  padding-right: 0px;
+}
+.article__foot-icon a:nth-child(3) {
+  flex-grow: 1;
+}
+.article__foot-like {
+  margin-bottom: 8px;
+  padding: 0px 16px;
+}
+.article__foot-like a {
+  color: rgba(var(--f75, 38, 38, 38), 1);
+  text-decoration: none;
+  font-weight: 600;
+}
+.article__foot-comment {
+  padding: 0px 16px;
+}
+.article__foot-comment h4 {
+  margin-bottom: 5px;
+}
+.article__foot-comment h4 a {
+  text-decoration: none;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-weight: 600;
+}
+.article__foot-comment h4 a:last-child {
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  font-weight: normal;
+}
+.article__foot-comment h4:nth-last-child(3) a {
+  color: #989898;
+  font-weight: normal;
+}
+.article__foot-time {
+  margin-bottom: 5px;
+  padding: 0px 16px;
+}
+.article__foot-time a {
+  text-decoration: none;
+  color: #989898;
+  font-size: 10px;
+}
+.article__foot-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+  border-top: 1px solid rgba(var(--ce3, 239, 239, 239), 1);
+  padding: 0px 16px;
+  height: 56px;
+}
+.article__foot-post input {
+  outline: none;
+  width: 100%;
+  border: none;
+}
+.article__foot-post button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  color: rgba(var(--d69, 0, 149, 246), 1);
+  font-weight: 600;
+}
